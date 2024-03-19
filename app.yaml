@@ -1,4 +1,4 @@
-runtime: php81
+runtime: php82
 service: default
 handlers:
   - url: /(.*\.(gif|png|jpg|css|js|svg|woff2|ttf))$
