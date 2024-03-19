@@ -1,5 +1,5 @@
 runtime: php82
-service: default
+service: dev
 handlers:
   - url: /(.*\.(gif|png|jpg|css|js|svg|woff2|ttf))$
     static_files: public/\1
