@@ -66,8 +66,8 @@
                                 <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
                             </div>
                             <div>
-                                <p>{{env('APP_KEY') }}</p>
-                                <p>{{env('DB_HOST') }}</p>
+                                <p>APP_KEY: {{env('APP_KEY') }}</p>
+                                <p>DB_HOST: {{env('DB_HOST') }}</p>
                             </div>
 
                             <div class="ml-12">

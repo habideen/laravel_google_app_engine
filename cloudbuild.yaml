@@ -10,7 +10,7 @@ steps:
     secretEnv: ["APP_KEY", "DB_HOST"]
 availableSecrets:
   secretManager:
-    - versionName: projects/$PROJECT_NUMBER/secrets/DEV_APP_KEY/versions/latest
+    - versionName: projects/$PROJECT_NUMBER/secrets/APP_KEY/versions/latest
       env: "APP_KEY"
     - versionName: projects/$PROJECT_NUMBER/secrets/DB_HOST/versions/latest
       env: "DB_HOST"
